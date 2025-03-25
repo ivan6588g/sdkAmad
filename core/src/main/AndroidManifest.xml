@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+<!--
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+-->
+<!--
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+-->
+<!--
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+-->
+<!--
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+-->
+<!--
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+-->
+
+    <application>
+        <activity
+            android:name="com.s10plusArtifacts.presentation.activitys.mainview.MainViewActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main_view"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Amad" >
+            <intent-filter>
+                <action android:name="com.s10plus.amad.qa.OPEN_MAIN"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.s10plusArtifacts.CoreActivity"
+            android:exported="false"
+            android:label="@string/title_activity_core"
+            android:theme="@style/Theme.Amad" />
+      <!--  <receiver
+            android:name="com.s10plusArtifacts.utils.CallInterceptor"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+            <intent-filter>
+                &lt;!&ndash; REGISTER TO RECEIVE BOOT_COMPLETED EVENTS &ndash;&gt;
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>-->
+    </application>
+
+</manifest>

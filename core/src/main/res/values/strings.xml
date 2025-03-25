@@ -1,0 +1,4 @@
+<resources>
+    <string name="title_activity_core">CoreActivity</string>
+    <string name="title_activity_main_view">MainViewActivity</string>
+</resources>

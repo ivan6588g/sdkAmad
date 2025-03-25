@@ -1,0 +1,262 @@
+{
+   "personalInformation": {
+      "showTypesData": [],
+      "urlImage": "",
+      "title": ""
+   },
+   "appId": "",
+   "views": [
+      {
+         "id": "5310bacc-6464-484d-8d5f-5dd891d80d12",
+         "mainView": true,
+         "nameView": "Vista 1",
+         "component": [
+            {
+               "UUID": "99be1478-d77f-4a7e-bed9-cec9aa671ded",
+               "type": 2,
+               "properties": {
+                  "text": "Botón-Imagen",
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "positionImage": "top",
+                  "base64Image": "https://media.s10plus.com/gato_2.jpg",
+                  "size": {
+                     "height": 295,
+                     "width": 168
+                  },
+                  "imageSize": {
+                     "width": 90,
+                     "height": 90
+                  },
+                  "margin": {
+                     "top": 0,
+                     "bottom": 0,
+                     "left": 0,
+                     "right": 0
+                  },
+                  "cornerRadius": 20,
+                  "textAlignment": "MC",
+                  "background": "#fa0000",
+                  "colorText": "#ffffff"
+               },
+               "actions": {
+                  "call": "",
+                  "openWebView": "",
+                  "openSections": "",
+                  "showBySchedule": []
+               }
+            },
+            {
+               "UUID": "9cb5021d-d79b-4c05-9a5a-8099b4c40368",
+               "actions": {
+                  "call": "",
+                  "openSections": "",
+                  "openWebView": "",
+                  "showBySchedule": []
+               },
+               "properties": {
+                  "imageSize": {
+                     "width": 10,
+                     "height": 10
+                  },
+                  "positionImage": "right",
+                  "background": "#000000",
+                  "base64Image": "",
+                  "colorText": "#FFFFFF",
+                  "cornerRadius": 0,
+                  "itemCarousel": [],
+                  "position": {
+                     "x": 18,
+                     "y": 358
+                  },
+                  "size": {
+                     "width": 300,
+                     "height": 250
+                  },
+                  "textAlignment": "MC"
+               },
+               "type": 4
+            },
+            {
+               "UUID": "85a61802-7837-4581-8774-e5ca892b3f10",
+               "actions": {
+                  "call": "",
+                  "openSections": "",
+                  "openWebView": "www.google.com",
+                  "showBySchedule": []
+               },
+               "properties": {
+                  "imageSize": {
+                     "width": 10,
+                     "height": 10
+                  },
+                  "positionImage": "right",
+                  "background": "#000000",
+                  "base64Image": "",
+                  "colorText": "#FFFFFF",
+                  "cornerRadius": 0,
+                  "itemCarousel": [],
+                  "position": {
+                     "x": 29,
+                     "y": 303
+                  },
+                  "size": {
+                     "width": 60,
+                     "height": 40
+                  },
+                  "textAlignment": "MC"
+               },
+               "type": 1
+            },
+            {
+               "UUID": "d153575b-e682-4672-b61e-9df841759364",
+               "actions": {
+                  "call": "",
+                  "openSections": "5310bacc-6464-484d-8d5f-5dd891d80d12",
+                  "openWebView": "",
+                  "showBySchedule": []
+               },
+               "properties": {
+                  "imageSize": {
+                     "width": 10,
+                     "height": 10
+                  },
+                  "positionImage": "right",
+                  "background": "#000000",
+                  "base64Image": "",
+                  "colorText": "#FFFFFF",
+                  "cornerRadius": 0,
+                  "itemCarousel": [],
+                  "position": {
+                     "x": 114,
+                     "y": 306
+                  },
+                  "size": {
+                     "width": 60,
+                     "height": 40
+                  },
+                  "textAlignment": "MC"
+               },
+               "type": 1
+            },
+            {
+               "UUID": "19f7eea9-00dd-41e5-bbc9-43e3bf01e770",
+               "actions": {
+                  "call": "",
+                  "openSections": "",
+                  "openWebView": "",
+                  "showBySchedule": []
+               },
+               "properties": {
+                  "imageSize": {
+                     "width": 10,
+                     "height": 10
+                  },
+                  "positionImage": "right",
+                  "background": "#000000",
+                  "base64Image": "",
+                  "colorText": "#FFFFFF",
+                  "cornerRadius": 0,
+                  "itemCarousel": [],
+                  "position": {
+                     "x": 0,
+                     "y": 623
+                  },
+                  "size": {
+                     "width": 350,
+                     "height": 280
+                  },
+                  "textAlignment": "MC",
+                  "videoURL": "https://media.s10plus.com/test.mp4"
+               },
+               "type": 6
+            }
+         ]
+      },
+      {
+         "id": "37f5f045-bfcf-41b1-8cc9-b0c9cf9b92b5",
+         "mainView": false,
+         "nameView": "Vista 2",
+         "component": [
+            {
+               "UUID": "f4ba0d25-3508-48dd-8458-d2ba87943799",
+               "actions": {
+                  "call": "",
+                  "openSections": "",
+                  "openWebView": "www.google.com",
+                  "showBySchedule": []
+               },
+               "properties": {
+                  "imageSize": {
+                     "width": 10,
+                     "height": 10
+                  },
+                  "positionImage": "right",
+                  "background": "#000000",
+                  "base64Image": "",
+                  "colorText": "#FFFFFF",
+                  "cornerRadius": 0,
+                  "itemCarousel": [],
+                  "position": {
+                     "x": 0,
+                     "y": 0
+                  },
+                  "size": {
+                     "height": 77,
+                     "width": 190
+                  },
+                  "text": "Texto-1",
+                  "textAlignment": "MC"
+               },
+               "type": 1
+            },
+            {
+               "UUID": "2b390aaf-8492-4722-8c36-1ce90265e9b6",
+               "actions": {
+                  "call": "",
+                  "openSections": "",
+                  "openWebView": "www.google.com",
+                  "showBySchedule": []
+               },
+               "properties": {
+                  "imageSize": {
+                     "width": 10,
+                     "height": 10
+                  },
+                  "positionImage": "right",
+                  "background": "#000000",
+                  "base64Image": "https://media.s10plus.com/menu_2-transformed.png",
+                  "colorText": "#FFFFFF",
+                  "cornerRadius": 0,
+                  "itemCarousel": [],
+                  "position": {
+                     "x": 0,
+                     "y": 99
+                  },
+                  "size": {
+                     "height": 251,
+                     "width": 200
+                  },
+                  "textAlignment": "MC"
+               },
+               "type": 0
+            }
+         ]
+      }
+   ],
+   "status": 0,
+   "preconfiguration": {
+      "activeGeoLocalization": false,
+      "interceptorPhone": [
+         "22-23-23-23-23",
+         "33-33-33-33-33"
+      ],
+      "offline": true,
+      "showState": true,
+      "urlAnalytics": "",
+      "urlSound": "https://media.s10plus.com/relaxing-guitar-loop-v5-245859.mp3",
+      "welcomeVideo": "https://media.s10plus.com/test.mp4"
+   }
+}
